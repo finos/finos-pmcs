@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Learn More · FINOS Pan Program Management Committees</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="The Decentralized Ecosystem Growth (DEG) program is a welcoming place for people interested in decentralized finance to meet, learn, and build."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Learn More · FINOS Pan Program Management Committees"/><meta property="og:type" content="website"/><meta property="og:url" content="https://pmcs.finos.org/"/><meta property="og:description" content="The Decentralized Ecosystem Growth (DEG) program is a welcoming place for people interested in decentralized finance to meet, learn, and build."/><meta property="og:image" content="https://pmcs.finos.org/img/deg-logo-white.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://pmcs.finos.org/img/deg-logo-white.png"/><link rel="shortcut icon" href="/img/favicon/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://pmcs.finos.org/blog/atom.xml" title="FINOS Pan Program Management Committees Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://pmcs.finos.org/blog/feed.xml" title="FINOS Pan Program Management Committees Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/finos-white.png" alt="FINOS Pan Program Management Committees"/><h2 class="headerTitleWithLogo">FINOS Pan Program Management Committees</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/docs/learn-more" target="_self">Learn More</a></li><li class="siteNavGroupActive"><a href="/docs/meetings" target="_self">Meetings</a></li><li class=""><a href="/blog/" target="_self">News</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>About Pan-PMCs</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">About Pan-PMCs<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem navListItemActive"><a class="navItem" href="/docs/learn-more">Learn More</a></li><li class="navListItem"><a class="navItem" href="/docs/charter">Charter</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Meetings<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/meetings">Pan-PMC Meetings</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Learn More</h1></header><article><div><span><p>The Decentralized Ecosystem Growth (DEG) program is a welcoming place for people interested in decentralized finance to meet, learn, and build.</p>
+<p>We're working on:</p>
+<ul>
+<li>Identifying specific challenges in the financial industry where we can apply what we've learned from distributed systems orchestration, peer-to-peer networking, verifiable logging, etc. to solve old problems in new ways</li>
+<li>Building new tools (utilities, reference implementations, applications, etc.) that make it easier to make, maintain, extend, and use decentralized financial applications</li>
+<li>Contributing to industry and technology standards efforts that help make decentralized financial applications feasible and interoperable</li>
+<li>Developing understanding across projects built on permissioned blockchains, public blockchains, and no blockchains</li>
+<li>Investigating how decentralization continues to impact the financial industry, and how we can help drive positive outcomes</li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2019-10-14 by Rob Underwood</em></div><div class="docs-prevnext"><a class="docs-next button" href="/docs/charter"><span>Charter</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/finos.png" alt="FINOS Pan Program Management Committees"/></a><div><h5>Docs</h5><a href="/docs/en/learn-more">Learn More</a><a href="/docs/en/projects">Projects</a></div><div><h5>Community</h5><a href="https://www.finos.org/" target="_blank" rel="noreferrer noopener">FINOS</a><a href="https://groups.google.com/a/finos.org/forum/#!forum/deg" target="_blank" rel="noreferrer noopener">Mailing List</a></div></section><section class="copyright">Copyright © 2019 FINOS - The Fintech Opensource Foundation</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>
