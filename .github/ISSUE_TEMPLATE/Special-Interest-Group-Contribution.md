@@ -25,21 +25,21 @@ assignees: aitana16, maoo
 # SIG Contribution and Onboarding process (v. 1.0, last updated on October 27, 2020)
 Below is the list of tasks that FINOS Team and the contribution author goes through in order to complete the FINOS SIG onboarding process. **Please do not edit these contents at contribution time!**
 
-## Voting (SIG Lead and FINOS ED)
-- [ ] Contribution author triggers community voting to propose SIG to FINOS board
-- [ ] Assign issue to Executive Director (@mindthegab) to trigger vote
-- [ ] (optional) at the discretion of the Executive Director: bring SIG to the Board for additional socialization and approval
+## SIG Contribution Proposal and Approval (SIG Lead, FINOS ED, FINOS Board)
+- [ ] SIG Lead creates GitHub issue in FINOS Community repo to socialize and gather feedback from the FINOS Community
+- [ ] FINOS Executive Director brings SIG to the Board for additional socialization and approval
 - [ ] FINOS board accepts the SIG (and the onboarding process can move forward)
 
 ## Identify project meta (Lead: FINOS SIG POC, Support: FINOS Marketing)
 - [ ] Identify and Assign FINOS SIG POC
 - [ ] Link to SIG approval resolution - // _public link to board resolution_
 - [ ] SIG Name
-    - [ ] Assess current trademark status
     - [ ] Define new SIG name (if applicable)
     - [ ] Design new SIG logo (if applicable)
+- [ ] SIG Trademark
+    - [ ] Assess current trademark status (if applicable)
     - [ ] Trademark new SIG name and logo (if applicable)
-- [ ] Category and sub-category (for FINOS Landscape)
+- [ ] Decide category and sub-category (for FINOS Landscape)
 - [ ] Existing content/assets or new Github repository
 - [ ] Team composition: lead maintainer and other maintainers
 - [ ] Meetings? (existing/yes/no)
@@ -48,13 +48,13 @@ Below is the list of tasks that FINOS Team and the contribution author goes thro
 - [ ] Define SIG slug : Dependant on `Define new SIG name`
 
 ## Project Communication Channel(s)
-- [ ] Ask maintainers which communications channels they'd like to use and if more than one are needed. These may include
-    - [ ] Creation of one or more project mailing lists (e.g. general@, or dev@ and users@)
-    - [ ] Creation of one or more Slack or Symphony chats for the project
+- [ ] Ask maintainers which of the communications channels offered by FINOS they'd like to use
+    - [ ] example 1
+    - [ ] example 2
 - [ ] Create the identified communication channels during infra set up
 - [ ] Link communication channels linked front and center in the project README.md.
 
-## Repository transfer (Lead: FINOS Infra)
+## (if applicable) Repository transfer (Lead: FINOS Infra)
 - [ ] Check GitHub repository transfer requirements:
   - [ ] [finos-admin](http://github.com/finos-admin) has `Admin` to all repositories to transfer
   - [ ] [finos-admin](http://github.com/finos-admin) is allowed to transfer repositories out of the org
@@ -88,7 +88,7 @@ Below is the list of tasks that FINOS Team and the contribution author goes thro
     - [ ] Post on FINOS social media
     - [ ] Post on LF social media
 
-## Onboarding and training
+## SIG Lead Onboarding and training
 - [ ] FINOS SIG Governance
 - [ ] FINOS Project Lifecycle
 - [ ] ODP Training
