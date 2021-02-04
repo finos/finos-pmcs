@@ -52,11 +52,15 @@ FINOS hosts collaborative modeling initiatives, so contributors are encouraged t
 #### (v. 1.0, last updated on 2021-01-11)
 Below is the list of tasks that FINOS Team go through in order to onboard and set up the FINOS Legend modeling effort.
 
-## Identify modeling effort meta
+## Identify project/ modeling effort meta
 - [ ] Identify and Assign FINOS Modeling effort POC
-- [ ] Modeling effort name
-- [ ] Modeling effort leader
-- [ ] Meetings (existing/yes/no)
+- Modeling effort type:
+    - [ ] top-level project
+    - [ ] work stream under existing project 
+- [ ] Project/ Modeling effort name:
+- [ ] Project/ Modeling slug:
+- [ ] Modeling effort leader:
+- [ ] Meetings (existing/yes/no):
 - [ ] Meeting minutes, agenda, attendance tracking (existing/yes/no)
 
 ## Proposal (Lead maintainer)
